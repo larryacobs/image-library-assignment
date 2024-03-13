@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'dist/styles.css': 'src/styles.scss'
+                    'dist/styles.css': 'src/scss/styles.scss'
                 }
             }
         },
@@ -13,8 +13,8 @@ module.exports = function(grunt) {
                 separator: ';',
             },
             dist: {
-                src: ['src/*.js'],
-                dest: 'dist/scripts.js',
+                src: ['src/js/*.js'],
+                dest: 'dist/script.js',
             },
         },
         watch: {
